@@ -84,7 +84,7 @@ function FormComponent() {
 }
 ```
 
-Doesn't work with all browsers, here's a little helper function that accounts for this:
+Doesn't work with all browsers (only in Safari at the time of this commit), here's a little helper function that accounts for this:
 
 ```tsx
 function getFormData(event: React.FormEvent<HTMLFormElement>): FormData {
